@@ -1,2 +1,2 @@
-# fem2vtk
-A tool to convert a FE model to VTK for visualizing in ParaView
+# Overview
+A python tool to convert a FE model to VTK for visualizing it in ParaView.
