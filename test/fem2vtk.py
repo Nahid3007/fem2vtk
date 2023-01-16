@@ -21,9 +21,9 @@ if __name__ == '__main__':
 
     nodes, elements, spc, load = parse_input_file(input_file)
 
-    # writeVTKPoints(nodes,output_path)
+    writeVTKPoints(nodes,output_path)
     
-    writeVTKLines(nodes, elements, spc, load, output_path)
+    # writeVTKLines(nodes, elements, spc, load, output_path)
 
     # writeVTKPointSPC(nodes, spc, output_path)
 

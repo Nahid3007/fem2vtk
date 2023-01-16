@@ -241,7 +241,6 @@ def writeVTKLines(nodes, elements, spc, load, output_path):
         print(f' Number of Cells: {no_of_cells}')
         print(f' File written to {output_path}elements.vtu')
 
-
 def writeVTKPointSPC(nodes, spc, output_path):
 
     print(f'\nWriting VTKPointSPC')
