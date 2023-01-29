@@ -101,4 +101,4 @@ def parse_input_file(input_file):
         else: 
             bNode, bBeam, bRod, bSpc = False, False, False, False
 
-    return nodes, elements, spc, load
+    return nodes, elements
